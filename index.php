@@ -18,11 +18,20 @@
     <div class="container">
       <div class="row m-2 justify-content-md-center">
         <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link il-link" href="#">Skills</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle il-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Skills</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item il-link" href="#">PHP</a>
+              <a class="dropdown-item il-link" href="#">MySQL</a>
+              <a class="dropdown-item il-link" href="#">Apache</a>
+              <a class="dropdown-item il-link" href="#">Redis</a>
+              <a class="dropdown-item il-link" href="#">.NET</a>
+              <a class="dropdown-item il-link" href="#">SAP B1</a>
+              <a class="dropdown-item il-link" href="#">SQL Server</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link il-link" href="#">LinkedIn</a>
+            <a class="nav-link il-link" href="http://www.linkedin.com/in/ilyarogov" target="_blank">LinkedIn</a>
           </li>
           <li class="nav-item">
             <a class="nav-link il-link" href="#">Code</a>
