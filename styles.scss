@@ -7,9 +7,12 @@
     color: #5A5063;
 }
 
+.dropdown-item.il-link:active {
+    background-color: #A3A5C3 !important;
+}
+
 body {
     background-color: #A9D2D5;
-    
 }
 
 .center-svg{
@@ -17,6 +20,12 @@ body {
     left: 23%;
     position: absolute;
 }
+
+@media only screen and (max-width: 600px) {
+    .center-svg{
+        left: -20%;
+    }
+  }
 
 .name {
     font-family: 'Sansita', sans-serif;
@@ -28,6 +37,7 @@ body {
     top: 130px;
 }
 
+
 .il-title{
     font-family: Shadows Into Light;
     font-size: 54px;
@@ -36,3 +46,22 @@ body {
     color: #495657;
     top: 150px;
 }
+
+.il-text {
+    font-family: Shadows Into Light;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    color: #495657;
+    top: 350px;
+  }
+  
+.il-blurb {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    color: #495657;
+    top: 200px;
+  }
+  
